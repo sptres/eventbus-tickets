@@ -16,7 +16,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: sptres/ticketing-client
+    - image: sptres/client
       context: client
       docker:
         dockerfile: Dockerfile
